@@ -1,0 +1,19 @@
+/*テーブルの横スクロールのためのCSSはここから*/
+ table{ 
+    width:100%;
+}
+.scroll{
+    overflow: auto;
+    white-space:nowrap;
+}
+.scroll::-webkit-scrollbar{
+    height: 15px;
+}
+.scroll::-webkit-scrollbar-track{
+    background: #f1f1f1;
+}
+.scroll::-webkit-scrollbar-thumb{
+    background: #bbb;
+}
+ /*テーブルの横スクロールのためのCSSはここまで*/
+ /*参照先：「ジュンイチのデジマブログ」さん*/
